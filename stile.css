@@ -8,73 +8,100 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: content-box;
-    text-decoration: none; }
+    text-decoration: none; 
+}
 
-.contenedor1 {
-    border: 1px solid black;
+.contenedor {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
     height: 85px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10%;
     background-color: #fff;
+    z-index: 3;
 } 
 
-.botones1 {
+.nav__link {
     margin: 0 15px;
     color: hsl(233, 8%, 62%);
-}
-.contenedor2 {
-    margin: 100px 15px;
+    font-size: 14px;
 }
 
-.selec1 {
-    margin-right:630px;
-    object-fit: cover;
+.hero {
+    display: flex;
+    background: #FAFAFA;
 }
 
-.parrafo1 {
-    color: hsl(233, 8%, 62%);
-   
+.hero__izquierda {
+    width: 40%;
+    padding: 180px 20px 180px 10%;
+}
+
+.hero__izquierda-titulo {
+    font-size: 55px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #303346;
+}  
+
+.hero__derecha {
+    width: 60%;
+    position: relative;
+}
+
+.hero__derecha-intro {
+    position: absolute;
+    z-index: 1;
+    top: -260px;
+    right: -450px;
+}
+
+.hero__derecha-mockups {
+    position: absolute;
+    z-index: 2;
+    top: -120px;
+    right: -130px;
 }
 
 .boton-request {
-    padding: 10px 30px;
+    padding: 14px 30px;
     color: #fff;
     background-image: linear-gradient(120deg,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
     border-radius: 30px;
     border: none;
     margin: 22px 0px;
+    font-weight: bold;
 }
 
-.desktop {
-    position: absolute;
-    top:-125px;
-    right: -320px;
-    z-index: -10;
-    height: 100%;
+.seccion {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #FAFAFA;
 }
 
-.titulo1 {
-      font-size: 35px;
-      margin-bottom: 20px;
-}  
+.seccion__titulo {
+    font-size: 40px;
+    font-weight: 300;
+    color: #303346;
+    margin-bottom: 30px;
+}
 
-.caja {
-    
-
-}
-.titulo-caja{
-    margin: 20px;
-}
-.tex-caja {
-   margin-right: 1050px;
-   color: hsl(233, 8%, 62%);
-}
-.parrafo2{
-    margin-right: 470px;
+.seccion__parrafo {
     color: hsl(233, 8%, 62%);
-} 
+}
 
-.selec2 {
+.card-contenedor {
+    display: flex;
+}
+
+.card
+
+.bg-gris-oscuro {
+    background: #F4F5F7;
 }
